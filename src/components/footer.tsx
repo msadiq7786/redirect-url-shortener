@@ -1,15 +1,7 @@
 import { Link } from "react-router-dom";
-import { Link2 } from "lucide-react";
 import RedirectLogo from "../assets/redirect.svg";
 
 const year = new Date().getFullYear();
-
-const footerLinks = [
-  { label: "Dashboard", to: "/dashboard" },
-  { label: "My Links", to: "/links" },
-  { label: "Login", to: "/login" },
-  { label: "Sign Up", to: "/signup" },
-];
 
 function Footer() {
   return (
